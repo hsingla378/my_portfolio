@@ -1,7 +1,86 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
 }
 
 /* Hero Section */
 
+#hero{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: auto;
+}
+
+#hero-left{
+    padding: 100px;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+#hero-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-before-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #606060;
+    /* margin-bottom: 10px; */
+    line-height: 28px;
+}
+
+#hero-heading{
+    font-size: 48px;
+    font-weight: 900;
+    color: #0d43a0;
+    margin: 0 auto;
+    line-height: 48px;
+}
+
+#hero-text{
+   color: #8896aa;
+   line-height: 24px;
+}
+
+#hero-data{
+    background-color: #4883E9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.hero-data-single{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.hero-data-single:nth-child(2){
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.hero-data-heading{
+    display: inline;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-data-text{
+    font-size: 12px;
+}
+
+#hero-img{
+    border-radius: 50%;
+    width: 50%;
+}
